@@ -8,4 +8,5 @@ This repository demonstrates the process of broadcasting a realtime photo feed u
 4. Install composer dependencies
 5. Run npm install
 6. Run the seeder. You will get a dummy user. The password for that user will be `secret`
-7. Do not forget to run the queue listener to broadcast the events
+7. Run `php artisan storage:link` to create a symbolic link
+8. Do not forget to run the queue listener to broadcast the events
